@@ -14,10 +14,10 @@ const App = (props) => {
   return (
 
     <div>
-
+      
       <Router>
-      <NavBar />
         <React.Fragment>
+        <NavBar />
           <Route exact path="/" component={Home} />
           <Route exact path="/actors" component={Actors} />
           <Route exact path="/directors" component={Directors} />
