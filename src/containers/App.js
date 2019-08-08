@@ -14,7 +14,7 @@ const App = (props) => {
   return (
 
     <div>
-      
+
       <Router>
       <NavBar />
         <React.Fragment>
